@@ -17,7 +17,6 @@ logger = logging.getLogger(__name__)
 
 
 class Quartus(Edatool):
-
     argtypes = ["vlogdefine", "vlogparam", "generic"]
 
     # Define Standard edition to be our default version

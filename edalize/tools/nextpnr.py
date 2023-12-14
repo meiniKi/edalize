@@ -9,7 +9,6 @@ from edalize.utils import EdaCommands
 
 
 class Nextpnr(Edatool):
-
     description = "A portable FPGA place and route tool"
 
     TOOL_OPTIONS = {

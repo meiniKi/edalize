@@ -36,7 +36,6 @@ clean_{name}:
 
 
 class Icarus(Edatool):
-
     argtypes = ["plusarg", "vlogdefine", "vlogparam"]
 
     @classmethod
@@ -105,7 +104,6 @@ class Icarus(Edatool):
         f.close()
 
         with open(os.path.join(self.work_root, "Makefile"), "w") as f:
-
             f.write("TARGET           := {}\n".format(self.name))
             _vpi_modules = " ".join([m["name"] + ".vpi" for m in self.vpi_modules])
             if _vpi_modules:

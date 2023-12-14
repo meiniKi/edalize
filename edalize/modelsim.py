@@ -71,7 +71,6 @@ clean_{name}:
 
 
 class Modelsim(Edatool):
-
     argtypes = ["plusarg", "vlogdefine", "vlogparam", "generic"]
 
     @classmethod

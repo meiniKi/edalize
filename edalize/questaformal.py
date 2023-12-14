@@ -45,7 +45,6 @@ clean_{name}:
 
 
 class Questaformal(Edatool):
-
     argtypes = ["plusarg", "vlogdefine", "vlogparam", "generic"]
 
     @classmethod

@@ -96,7 +96,6 @@ class FlowGraph(object):
             # was popped and graph is not satisifiable
             _d2 = _d.copy()
             for k, v in _d2.items():
-
                 # It is safe to pop the element if all dependencies of the node
                 # exist in the graph already
                 if set(v.get("deps", [])) <= set(c.get_nodes()):
@@ -127,7 +126,6 @@ class FlowGraph(object):
 
 
 class Edaflow(object):
-
     FLOW_OPTIONS = {}
 
     @classmethod
@@ -160,7 +158,6 @@ class Edaflow(object):
     def get_filtered_tool_options(cls, tools, flow_defined_tool_options):
         tool_opts = {}
         for tool_name in tools:
-
             # Get available tool options from each tool in the list
             try:
                 class_tool_options = getattr(
@@ -252,7 +249,6 @@ class Edaflow(object):
         last_script = depends
         hooks = self.edam.get("hooks", {})
         for script in hooks.get(hook_name, []):
-
             # _env = self.env.copy()
             # if 'env' in script:
             #    _env.update(script['env'])
@@ -303,7 +299,6 @@ class Edaflow(object):
         self.commands.add([], ["run"], ["pre_run"])
 
     def configure(self):
-
         # Write tool-specific config files
         for node in self.flow.get_nodes().values():
             node.inst.configure()

@@ -11,7 +11,6 @@ logger = logging.getLogger(__name__)
 
 
 class Vcs(Edatool):
-
     _description = """ Synopsys VCS Backend
 
 VCS is one of the "Big 3" simulators.

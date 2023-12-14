@@ -51,7 +51,6 @@ def tool_fixture(tmp_path):
         ref_subdir="",
         config_files=[],
     ):
-
         tf = ToolFixture(tool_name, ref_subdir)
 
         edam = get_edam(

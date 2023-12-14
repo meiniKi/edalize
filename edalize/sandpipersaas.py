@@ -27,7 +27,6 @@ clean:
 
 
 class Sandpipersaas(Edatool):
-
     argtypes = ["plusarg", "vlogdefine", "vlogparam"]
 
     @classmethod
@@ -73,7 +72,6 @@ class Sandpipersaas(Edatool):
             }
 
     def configure_main(self):
-
         if len(self.files) > 1:
             raise RuntimeError("Only 1 TL-V file is allowed")
 

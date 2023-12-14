@@ -10,7 +10,6 @@ from edalize.edatool import Edatool
 
 
 class Symbiyosys(Edatool):
-
     _description = """SymbiYosys backend
 
 SymbiYosys is a wrapper around yosys to make it easier to do formal

@@ -11,7 +11,6 @@ from edalize.yosys import Yosys
 
 
 class Gatemate(Edatool):
-
     argtypes = ["vlogdefine", "vlogparam"]
 
     @classmethod

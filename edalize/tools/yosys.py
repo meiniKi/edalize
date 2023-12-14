@@ -12,7 +12,6 @@ logger = logging.getLogger(__name__)
 
 
 class Yosys(Edatool):
-
     description = "Open source synthesis tool targeting many different FPGAs"
 
     TOOL_OPTIONS = {

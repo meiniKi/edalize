@@ -10,7 +10,6 @@ from edalize.utils import EdaCommands
 
 
 class Icarus(Edatool):
-
     description = "Icarus Verilog is a Verilog simulation and synthesis tool. It operates as a compiler, compiling source code written in Verilog (IEEE-1364) into some target format"
 
     TOOL_OPTIONS = {
@@ -38,7 +37,6 @@ class Icarus(Edatool):
         unused_files = []
 
         if True:
-
             for key, value in self.vlogdefine.items():
                 scr_file.write(
                     "+define+{}={}\n".format(key, self._param_value_str(value, ""))

@@ -70,7 +70,6 @@ class Vivado(Edaflow):
 
     def run(self):
         if self.flow_options.get("pgm"):
-
             # Get run command from tool instance
             vivado_inst = self.flow.get_node("vivado").inst
             (cmd, args, cwd) = vivado_inst.run()

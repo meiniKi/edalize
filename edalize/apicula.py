@@ -11,7 +11,6 @@ from edalize.yosys import Yosys
 
 
 class Apicula(Edatool):
-
     argtypes = ["vlogdefine", "vlogparam"]
 
     @classmethod

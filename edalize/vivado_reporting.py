@@ -33,7 +33,6 @@ except ImportError as e:
 
 
 class VivadoReporting(Reporting):
-
     # Override non-default class variables
     _resource_rpt_pattern = "*_utilization_placed.rpt"
     _timing_rpt_pattern = "*_timing_summary_routed.rpt"
@@ -154,12 +153,10 @@ class VivadoReporting(Reporting):
 
     @classmethod
     def report_resources(cls, report_file: str) -> Dict[str, pd.DataFrame]:
-
         return cls._report_to_df(cls._parse_utilization_tables, report_file)
 
     @classmethod
     def report_timing(cls, report_file: str) -> Dict[str, pd.DataFrame]:
-
         report = open(report_file, "r").read()
 
         timing = cls._parse_timing_summary_tables(report)
@@ -213,7 +210,6 @@ class VivadoReporting(Reporting):
     def report_summary(
         resources: Dict[str, pd.DataFrame], timing: Dict[str, pd.DataFrame]
     ) -> Dict[str, Union[int, float, Dict[str, Optional[float]]]]:
-
         summary = {}  # type: Dict[str, Union[int, float, Dict[str, Optional[float]]]]
 
         # Vivado uses different tables and row values for different families.

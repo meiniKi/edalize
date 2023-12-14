@@ -13,7 +13,6 @@ logger = logging.getLogger(__name__)
 
 
 class Ascentlint(Edatool):
-
     argtypes = ["vlogdefine", "vlogparam"]
 
     @classmethod

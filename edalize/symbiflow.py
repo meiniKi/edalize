@@ -27,7 +27,6 @@ A core (usually the system core) can add the following files:
 
 
 class Symbiflow(Edatool):
-
     argtypes = ["vlogdefine", "vlogparam", "generic"]
     archs = ["xilinx", "fpga_interchange"]
     fpga_interchange_families = ["xc7"]

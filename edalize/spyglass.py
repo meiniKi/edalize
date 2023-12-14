@@ -13,7 +13,6 @@ logger = logging.getLogger(__name__)
 
 
 class Spyglass(Edatool):
-
     _description = """ Synopsys (formerly Atrenta) Spyglass Backend
 
 Spyglass performs static source code analysis on HDL code and checks for common

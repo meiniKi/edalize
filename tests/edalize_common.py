@@ -56,7 +56,6 @@ class TestFixture:
         use_vpi=False,
         toplevel="top_module",
     ):
-
         raw_ref_dir = os.path.join(tests_dir, "test_" + tool_name, ref_dir)
 
         self.test_name = (

@@ -6,7 +6,6 @@ from .edalize_tool_common import tool_fixture
 @pytest.mark.parametrize("arch", ["xilinx", "ice40", "ecp5"])
 @pytest.mark.parametrize("output_format", ["json", "edif", "blif", "verilog"])
 def test_tool_yosys(arch, output_format, tool_fixture):
-
     tool_options = {
         "arch": arch,
         "output_format": output_format,

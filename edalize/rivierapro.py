@@ -16,7 +16,6 @@ exit
 
 
 class Rivierapro(Edatool):
-
     argtypes = ["plusarg", "vlogdefine", "vlogparam"]
 
     @classmethod

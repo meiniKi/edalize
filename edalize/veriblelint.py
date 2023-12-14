@@ -13,7 +13,6 @@ logger = logging.getLogger(__name__)
 
 
 class Veriblelint(Edatool):
-
     argtypes = ["vlogdefine", "vlogparam"]
 
     @classmethod

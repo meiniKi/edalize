@@ -6,7 +6,6 @@ from .edalize_common import make_edalize_test
 
 
 def run_mistral_test(tf):
-
     tf.backend.configure()
 
     tf.compare_files(

@@ -94,7 +94,6 @@ class F4pga(Edaflow):
 
     # Creates the flow tree with Yosys and VPR or NextPNR nodes
     def configure_flow(self, flow_options):
-
         # Set target
         # toplevel = self.edam["toplevel"]
         self.name = self.edam["name"]

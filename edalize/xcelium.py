@@ -69,7 +69,6 @@ clean_{name}:
 
 
 class Xcelium(Edatool):
-
     argtypes = ["plusarg", "vlogdefine", "vlogparam", "generic"]
 
     @classmethod

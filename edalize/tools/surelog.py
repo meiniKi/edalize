@@ -5,7 +5,6 @@ from edalize.utils import EdaCommands
 
 
 class Surelog(Edatool):
-
     description = "SystemVerilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler"
 
     TOOL_OPTIONS = {

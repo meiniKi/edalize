@@ -12,7 +12,6 @@ logger = logging.getLogger(__name__)
 
 
 class Icetime(Edatool):
-
     description = "Static timing analysis for iCE40 FPGAs"
 
     TOOL_OPTIONS = {

@@ -12,7 +12,6 @@ logger = logging.getLogger(__name__)
 
 
 class Icepack(Edatool):
-
     description = "Generate binary image for iCE40 FPGAs"
 
     TOOL_OPTIONS = {

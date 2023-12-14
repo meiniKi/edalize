@@ -42,7 +42,6 @@ class Icestorm(Edaflow):
         return cls.get_filtered_tool_options(tools, flow_defined_tool_options)
 
     def configure_flow(self, flow_options):
-
         flow = self._flow.copy()
 
         # Add any user-specified frontends to the flow

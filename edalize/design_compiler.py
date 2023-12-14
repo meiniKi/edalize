@@ -26,7 +26,6 @@ A core (usually the system core) can add the following files:
 
 
 class Design_compiler(Edatool):
-
     argtypes = ["vlogdefine", "vlogparam", "generic"]
 
     @classmethod

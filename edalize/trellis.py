@@ -11,7 +11,6 @@ from edalize.yosys import Yosys
 
 
 class Trellis(Edatool):
-
     argtypes = ["vlogdefine", "vlogparam"]
 
     @classmethod

@@ -3,7 +3,6 @@ from edalize.utils import EdaCommands
 
 
 class Sv2v(Edatool):
-
     description = "SystemVerilog to Verilog conversion"
 
     TOOL_OPTIONS = {

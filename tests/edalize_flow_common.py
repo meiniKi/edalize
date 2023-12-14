@@ -50,7 +50,6 @@ def flow_fixture(tmp_path):
         ref_subdir="",
         config_files=[],
     ):
-
         edam = get_edam(flow_options=flow_options, files=files, toplevel=toplevel)
         ff = FlowFixture(flow_name, edam, tmp_path, ref_subdir)
 

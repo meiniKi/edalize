@@ -28,7 +28,6 @@ SOFA_TASK_DIRS = {
 
 
 class Openfpga(Edatool):
-
     argtypes = ["plusarg", "vlogdefine", "vlogparam"]
 
     @classmethod

@@ -12,7 +12,6 @@ logger = logging.getLogger(__name__)
 
 
 class Slang(Edatool):
-
     _description = """Slang System Verilog Frontend
 slang is a software library that provides various
 components for lexing, parsing, type checking, and elaborating SystemVerilog code.

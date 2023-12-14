@@ -260,7 +260,6 @@ class IseReporting(Reporting):
 
     @staticmethod
     def report_summary(resources: Dict[str, pd.DataFrame], timing: Dict[str, Any]):
-
         util = resources["Utilization by Hierarchy"]
 
         # Find a column beginning with DSP since we don't know if it's

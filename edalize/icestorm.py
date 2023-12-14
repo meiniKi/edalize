@@ -11,7 +11,6 @@ from edalize.flows.icestorm import Icestorm as Icestorm2
 
 
 class Icestorm(Edatool):
-
     argtypes = ["vlogdefine", "vlogparam"]
 
     @classmethod

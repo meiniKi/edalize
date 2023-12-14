@@ -15,7 +15,6 @@ class Vpr(Edaflow):
     FLOW_OPTIONS = {}
 
     def configure_flow(self, flow_options):
-
         flow = {
             "yosys": {"ftdo": {"output_format": "blif"}},
             "vpr": {"deps": ["yosys"]},

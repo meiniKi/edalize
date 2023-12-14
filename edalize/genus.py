@@ -26,7 +26,6 @@ A core (usually the system core) can add the following files:
 
 
 class Genus(Edatool):
-
     argtypes = ["vlogdefine", "vlogparam", "generic"]
 
     @classmethod

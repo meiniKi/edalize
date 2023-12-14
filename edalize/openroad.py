@@ -11,7 +11,6 @@ from edalize.edatool import Edatool
 
 
 class Openroad(Edatool):
-
     _description = """OpenROAD-flow-scripts
     """
 

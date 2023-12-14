@@ -12,7 +12,6 @@ logger = logging.getLogger(__name__)
 
 
 class Yosys(Edatool):
-
     argtypes = ["vlogdefine", "vlogparam"]
 
     @classmethod

@@ -11,7 +11,6 @@ logger = logging.getLogger(__name__)
 
 
 class Ghdl(Edatool):
-
     argtypes = ["vlogparam", "generic"]
 
     @classmethod
