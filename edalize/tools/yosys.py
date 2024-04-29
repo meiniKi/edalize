@@ -99,7 +99,7 @@ class Yosys(Edatool):
         verilog_params = []
         for key, value in self.vlogparam.items():
             if type(value) is str:
-                value = '{"' + value + '"}'
+                value = '{"' + value.strip('"') + '"}'
             _s = r"chparam -set {} {} {}"
             verilog_params.append(
                 _s.format(key, self._param_value_str(value), self.toplevel)
